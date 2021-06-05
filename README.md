@@ -19,7 +19,7 @@
 python confuse_tools.py --help
 ```
 
-![image](https://github.com/X1ongFeng/Simple-Confusion/blob/main/.readme/Help.png)
+![image](https://github.com/Xi0ngFeng/Simple-Confusion/blob/2364937d643b6e997580860156942c2f0a9475c0/.readme/Help.png)
 
 调用Confuse_gzip_xor对mimikatz进行混淆
 
@@ -27,7 +27,7 @@ python confuse_tools.py --help
 python confuse_tools.py -s test.txt -d test.raw -f Confuse_gzip_xor
 ```
 
-![image](https://github.com/X1ongFeng/Simple-Confusion/blob/main/.readme/Demo.png)
+![image](https://github.com/Xi0ngFeng/Simple-Confusion/blob/2364937d643b6e997580860156942c2f0a9475c0/.readme/Demo.png)
 
 可以获取到随机生成的xor_key。(注意：这个key，请自行解密。)
 
@@ -41,8 +41,8 @@ python confuse_tools.py -s mimi.txt -d mimi.raw -f Confuse_gzip_xor -k 70
 
 混淆前
 
-![image](https://github.com/X1ongFeng/Simple-Confusion/blob/main/.readme/BeforeConfusion.png)
+![image](https://github.com/Xi0ngFeng/Simple-Confusion/blob/2364937d643b6e997580860156942c2f0a9475c0/.readme/BeforeConfusion.png)
 
 混淆后
 
-![image](https://github.com/X1ongFeng/Simple-Confusion/blob/main/.readme/AfterConfusion.png)
+![image](https://github.com/Xi0ngFeng/Simple-Confusion/blob/2364937d643b6e997580860156942c2f0a9475c0/.readme/AfterConfusion.png)
