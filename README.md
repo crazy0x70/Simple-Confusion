@@ -19,13 +19,17 @@
 python confuse_tools.py --help
 ```
 
-调用Confu![](C:\Users\0x706a\Desktop\帮助.png)se_gzip_xor对mimikatz进行混淆
+![image](https://github.com/X1ongFeng/img-folder/blob/main/images/%E5%B8%AE%E5%8A%A9.png)
+
+调用Confuse_gzip_xor对mimikatz进行混淆
 
 ```
 python confuse_tools.py -s test.txt -d test.raw -f Confuse_gzip_xor
 ```
 
-![](C:\Users\0x706a\Desktop\混淆测试命令.png)我们可以获取到随机生成的xor_key。这个key，请自行解密。
+![image](https://github.com/X1ongFeng/img-folder/blob/main/images/%E6%B7%B7%E6%B7%86%E6%B5%8B%E8%AF%95%E5%91%BD%E4%BB%A4.png)
+
+可以获取到随机生成的xor_key。(注意：这个key，请自行解密。)
 
 ### 支持自定义密钥，默认随机生成。
 
@@ -37,8 +41,8 @@ python confuse_tools.py -s mimi.txt -d mimi.raw -f Confuse_gzip_xor -k 70
 
 混淆前
 
-![](C:\Users\0x706a\Desktop\混淆前.png)
+![image](https://github.com/X1ongFeng/img-folder/blob/main/images/%E6%B7%B7%E6%B7%86%E5%89%8D.png)
 
 混淆后
 
-![](C:\Users\0x706a\Desktop\混淆后.png)
+![image](https://github.com/X1ongFeng/img-folder/blob/main/images/%E6%B7%B7%E6%B7%86%E5%90%8E.png)
