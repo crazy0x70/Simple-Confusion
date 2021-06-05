@@ -41,8 +41,8 @@ python confuse_tools.py -s mimi.txt -d mimi.raw -f Confuse_gzip_xor -k 70
 
 混淆前
 
-![image](https://github.com/X1ongFeng/Simple-Confusion/blob/main/.readme/Before%20confusion.png)
+![image](https://github.com/X1ongFeng/Simple-Confusion/blob/main/.readme/BeforeConfusion.png)
 
 混淆后
 
-![image](https://github.com/X1ongFeng/Simple-Confusion/blob/main/.readme/After%20confusion.png)
+![image](https://github.com/X1ongFeng/Simple-Confusion/blob/main/.readme/AfterConfusion.png)
