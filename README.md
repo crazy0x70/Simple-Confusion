@@ -16,7 +16,7 @@
 查看帮助：
 
 ```
-python confuse_tools.py --help
+python confuse.py --help
 ```
 
 ![image](https://github.com/Xi0ngFeng/Simple-Confusion/blob/2364937d643b6e997580860156942c2f0a9475c0/.readme/Help.png)
@@ -24,7 +24,7 @@ python confuse_tools.py --help
 调用Confuse_gzip_xor对mimikatz进行混淆
 
 ```
-python confuse_tools.py -s test.txt -d test.raw -f Confuse_gzip_xor
+python confuse.py -s test.txt -d test.raw -f Confuse_gzip_xor
 ```
 
 ![image](https://github.com/Xi0ngFeng/Simple-Confusion/blob/2364937d643b6e997580860156942c2f0a9475c0/.readme/Demo.png)
@@ -34,7 +34,7 @@ python confuse_tools.py -s test.txt -d test.raw -f Confuse_gzip_xor
 ### 支持自定义密钥，默认随机生成。
 
 ```
-python confuse_tools.py -s mimi.txt -d mimi.raw -f Confuse_gzip_xor -k 70
+python confuse.py -s mimi.txt -d mimi.raw -f Confuse_gzip_xor -k 70
 ```
 
 ## virustotal查杀
